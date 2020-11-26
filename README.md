@@ -33,3 +33,9 @@ else
 end if
 ```
 
+
+
+# 2.VBScript 入门
+
+
+
