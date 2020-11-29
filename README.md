@@ -10,6 +10,10 @@
 
 * [1.轻松开发脚本](#1.轻松开发脚本)
 * [2.VBScript 入门](#2.VBScript 入门)
+* [3.数据类型](#3.数据类型)
+* [4.变量和程序](#4.变量和程序)
+
+
 
 ---
 
@@ -108,6 +112,29 @@ MsgBox TypeName(f)
 
 
 # 4.变量和程序
+
+## 4.1 Option Explicit
+
+
+
+```vbscript
+option Explicit
+
+
+dim result
+
+result = MsgBox("Do you want to continue?",vbYesNo)
+
+if result = vbYes  then
+	MsgBox "We'll continue..."
+else
+	MsgBox "Ok,enough..."
+end if
+
+
+```
+
+
 
 
 
