@@ -1,6 +1,6 @@
 option Explicit
 
-/*测试代码*/
+
 dim result
 
 result = MsgBox("Do you want to continue?",vbYesNo)
