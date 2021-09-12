@@ -1,6 +1,7 @@
 echo off
 
-start git
+
+
 
 rem  the path of the git command
 
