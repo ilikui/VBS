@@ -1,5 +1,8 @@
 echo off
 
+
+
+
 rem  the path of the git command
 
 
@@ -8,16 +11,16 @@ rem  the path of the git command
     set y=%date:~0,2%	
 	set mo=%date:~5,2%
 	set d=%date:~8,2%
-    set wek =%date:~10,6%  
+    rem set wek =%date:~10,6%  
 	set h=%time:~0,2%
 	set mi=%time:~3,2%	
-	set sec = %time:~6,2%	
-    set milsec = %time:~9,2%
+	rem set sec = %time:~6,2%	
+    rem set milsec = %time:~9,2%
 
 	
 
 	git add *
-
+	rem git push --set-upstream origin master
 	REM delay 3 second
 	TIMEOUT /T 3	 
 	git commit -m  "update"
