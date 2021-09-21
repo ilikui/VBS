@@ -20,7 +20,7 @@ rem  the path of the git command
 	
 
 	git add *
-
+	rem git push --set-upstream origin master
 	REM delay 3 second
 	TIMEOUT /T 3	 
 	git commit -m  "update"
